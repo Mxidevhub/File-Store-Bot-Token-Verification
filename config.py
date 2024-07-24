@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7419183615:AAGRPsFyut0gP5hdq-J_QeKltqX1pXiktTY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7283622048:AAEr4K3gGtTt5RO454ll8nO1Cfj_R_j5D_4")
 
 APP_ID = int(os.environ.get("APP_ID", "29580054"))
 
@@ -13,17 +13,17 @@ APP_ID = int(os.environ.get("APP_ID", "29580054"))
 API_HASH = os.environ.get("API_HASH", "8c12aad7243d77767ad428e01b630034")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002151357238"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002189684174"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5057842745"))
 
 #Port
-PORT = os.environ.get("PORT", "8085")
+PORT = os.environ.get("PORT", "8083")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Devhub:Fes9abgab9@botdatabase.5hdjtp3.mongodb.net/?retryWrites=true&w=majority&appName=BotDatabase")
-DB_NAME = os.environ.get("DATABASE_NAME", "testdb")
+DB_NAME = os.environ.get("DATABASE_NAME", "testdb2")
 
 #Shortner (token system) 
 
@@ -31,12 +31,12 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "152fe1a88b73a61a33342c9a42ef53cac1afd3e4")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/ldb_how_to_download")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002035277075"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴛᴏᴋᴇɴ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @team_netflix</b>")
